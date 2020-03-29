@@ -1,25 +1,4 @@
+@import "header.css";
+@import "footer.css";
+@import "image.css";
 
-
-#footer{
-  height: 50px;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background: #aaa;
-}
-
-header{
-  height: 80px;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background: #aaa;
-}
-
-.img{
-    height: 200px;
-    width: 150px;
-    background: #aaa;
-}
