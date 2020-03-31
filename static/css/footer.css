@@ -1,7 +1,9 @@
 
 footer{
+  grid-area: footer;
+  display: flex;
   height: 50px;
-  max-width: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
