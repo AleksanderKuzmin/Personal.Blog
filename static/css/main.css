@@ -196,30 +196,47 @@ q {
   quotes: "“" "”" "‘" "’";
 }
 q::before {
-    content: open-quote;
+  content: open-quote;
 }
 q::after {
-    content: close-quote;
+  content: close-quote;
 }
 
 figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
 }
 
 figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
 }
 
 img.figure {
-    max-width: 220px;
-    max-height: 150px;
+  max-width: 220px;
+  max-height: 150px;
+}
+
+blockquote{
+  display: block;
+  color: #685206;
+  font-style: italic;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 12px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+} 
+
+i {
+  color: #534205;
+  font-style: italic;
 }
